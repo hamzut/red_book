@@ -157,3 +157,8 @@
     text-decoration:none;
     color: #838383;
 }
+@media (max-Width:585px) {
+    .download_title{
+        
+    }
+}

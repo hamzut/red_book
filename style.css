@@ -4,7 +4,7 @@
     background-color: #202020;
 }
 .wrap {
-    max-width: 1080px;
+    max-width: 1px;
     min-width: 320px;
     margin: 0 auto;
     padding: 0 15px;
@@ -127,5 +127,256 @@ background-color: #202020;
 }
 .silke {
     text-decoration:none;
-    color: #838383;
+    color: #747474;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .download_title{
+            font-weight: 700; font-size: 5rem; line-height: 5rem; margin-bottom: 30px;
+    }
+    .download_subtitle{
+        padding: 1px 0 100px 0;    
+        font-weight: 500; font-size: 3rem; line-height: 4rem; margin-bottom: 0px;
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 28px;
+        flex-direction: column;
+        
+    }
+    .menu li{
+        margin-left: 0px;
+    
+    }
+    .silki {
+        position: relative;
+        color: #484848;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .silki:before {
+        content: '';
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 1.5px;
+        background-color: #838383;
+    }
+    
+    .silki:hover:before {
+        width: 90%;
+    }
+    
+    .silki:before {
+        transition: width 0.35s;
+    }
+    
+    .accordion {
+        width: 30rem;
+        color:#202020 ;
+    }
+    .accordion-body {
+        
+        color: #FFF;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #202020;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:998px) {
+    .download_title{
+            font-weight: 700; font-size: 5rem; line-height: 5rem; margin-bottom: 30px;
+    }
+    .download_subtitle{
+        padding: 1px 0 100px 0;    
+        font-weight: 500; font-size: 3rem; line-height: 4rem; margin-bottom: 0px;
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 28px;
+        flex-direction: column;
+        
+    }
+    .menu li{
+        margin-left: 0px;
+    
+    }
+    .silki {
+        position: relative;
+        color: #484848;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .silki:before {
+        content: '';
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 1.5px;
+        background-color: #838383;
+    }
+    
+    .silki:hover:before {
+        width: 90%;
+    }
+    
+    .silki:before {
+        transition: width 0.35s;
+    }
+    
+    .accordion {
+        width: 30rem;
+        color:#202020 ;
+    }
+    .accordion-body {
+        
+        color: #FFF;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #202020;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (MAX-Width:585px) {
+    .download_title{
+            font-weight: 700; font-size: 5rem; line-height: 5rem; margin-bottom: 30px;
+    }
+    .download_subtitle{
+        padding: 1px 0 100px 0;    
+        font-weight: 500; font-size: 3rem; line-height: 4rem; margin-bottom: 0px;
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 28px;
+        flex-direction: column;
+        
+    }
+    .menu li{
+        margin-left: 0px;
+    
+    }
+    .silki {
+        position: relative;
+        color: #484848;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .silki:before {
+        content: '';
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 1.5px;
+        background-color: #838383;
+    }
+    
+    .silki:hover:before {
+        width: 90%;
+    }
+    
+    .silki:before {
+        transition: width 0.35s;
+    }
+    .silki2 {
+        position: relative;
+        color: #484848;
+        font-size: 1.25rem;
+        text-decoration: none;
+        border-color: #484848;
+        border-radius: 111%;
+    }
+    
+    .silki2 :before {
+        content: '';
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 1.5px;
+        background-color: #838383;
+    }
+    
+    .silki2 :hover:before {
+        width: 90%;
+    }
+    
+    .silki2 :before {
+        transition: width 0.35s;
+    }
+    .accordion {
+        width: 30rem;
+        color:#202020 ;
+    }
+    .accordion-body {
+        
+        color: #FFF;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #202020;
+    }
+}
+
