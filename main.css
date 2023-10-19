@@ -114,6 +114,7 @@ background-color: #202020;
 .footer {
     display: flex; justify-content: space-between; align-items: center;
     color: #000000; font-size: 0.75rem; font-weight: 700;
+    border-radius: 20px;
 }
 .txt2 {
     font-family: 'Montserrat', sans-serif;
@@ -129,14 +130,6 @@ background-color: #202020;
     text-decoration:none;
     color: #747474;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -220,9 +213,6 @@ background-color: #202020;
 
 
 
-
-
-
 @media (max-width:998px) {
     .download_title{
             font-weight: 700; font-size: 5rem; line-height: 5rem; margin-bottom: 30px;
@@ -234,11 +224,11 @@ background-color: #202020;
     .menu {
         display: flex;
         list-style: none;
-        margin-left: 0px;
+        margin-left: 150%;
         margin-top: 28px;
         flex-direction: column;
-        
-    }
+        position: relative;
+        }
     .menu li{
         margin-left: 0px;
     
@@ -252,7 +242,7 @@ background-color: #202020;
     
     .silki:before {
         content: '';
-        left: 0; bottom: -5px;
+        left: 1000px; bottom: -5px;
         width: 0;
         height: 1.5px;
         background-color: #838383;
@@ -294,17 +284,19 @@ background-color: #202020;
 
 
 
-
-
-
-
 @media (MAX-Width:585px) {
+    .download_wrap {
+        background: url(img/джунгли.webp) center center no-repeat;
+        background-size: cover;
+        padding: 100px 0 145px 0;
+        height: 50%;
+    }
     .download_title{
-            font-weight: 700; font-size: 5rem; line-height: 5rem; margin-bottom: 30px;
+            font-weight: 700; font-size: 3rem; line-height: 3rem; margin-bottom: 30px;
     }
     .download_subtitle{
         padding: 1px 0 100px 0;    
-        font-weight: 500; font-size: 3rem; line-height: 4rem; margin-bottom: 0px;
+        font-weight: 500; font-size: 2rem; line-height: 2rem; margin-bottom: 0px;
     }
     .menu {
         display: flex;
@@ -365,7 +357,7 @@ background-color: #202020;
         transition: width 0.35s;
     }
     .accordion {
-        width: 30rem;
+        width: 100%;
         color:#202020 ;
     }
     .accordion-body {
