@@ -1,5 +1,5 @@
 .body {
-    height: 100%;
+    height: 200%;
     width: 100%;
     background-color: #202020;
 
@@ -136,29 +136,183 @@
     box-sizing: border-box; 
 
 }
-.footer_wrap {
-    padding: 1500px 20px 20px 0px;
+.footer_wrap22 {
+    padding: 20px 200px 20px 200px;
+    margin-top: 100%;
 }
-.footer {
+.footer22 {
     display: flex; justify-content: space-between; align-items: center;
     color: #000000; font-size: 0.75rem; font-weight: 700;
+    border-radius: 20px;
+    margin-top: 100%;
 }
-.txt3 {
+.txt22 {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
     text-decoration: none;
+    
 }
-.foot {
+.foot22 {
     width: 10000rem;
     height: 5rem;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(53, 53, 53);'
+    margin-top: 100px;
 }
-.silke {
+.silke22 {
     text-decoration:none;
-    color: #838383;
+    color: #747474;
+    margin-top: 100%;
 }
-@media (max-Width:585px) {
+.wrap22 {
+    max-width: 1px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box; 
+
+}
+@media (max-Width:998px) {
+    .body {
+        height: 170rem;
+        width: 100%;
+        background-color: #202020;
+    
+    }
+    .img {
+        width: 50%;
+        padding-top: 25%;
+        position: absolute;
+    }
+    .cho-to {
+        display: flex;
+        padding: 50% 1px 0px 3%;
+        color: #FFF;
+        position: absolute;
+        font-weight: 400; font-size: 4rem; line-height: 4rem; margin-bottom: 20px;
+    }
+    .choto {
+        display: flex;
+        padding: 65% 1px 0px 3%;
+        color: #FFF;
+        align-items: center;
+        position: absolute;
+        font-weight: 40; font-size: 2rem; line-height: 2rem; margin-bottom: 20px;
+    }
+    .img2 {
+        width: 50%;
+        padding-top: 100%;
+        position: absolute;
+    }
+    .cho-to2 {
+        display: flex;
+        padding: 130% 1px 0px 3%;
+        color: #FFF;
+        position: absolute;
+        font-weight: 400; font-size: 4rem; line-height: 4rem; margin-bottom: 20px;
+    }
+    .choto2 {
+        display: flex;
+        padding: 145% 1px 0px 3%;
+        color: #FFF;
+        align-items: center;
+        position: absolute;
+        font-weight: 40; font-size: 2rem; line-height: 2rem; margin-bottom: 20px;
+    }
+    .img3 {
+        width: 50%;
+        padding-top: 175%;
+        position: absolute;
+    }
+    .cho-to3 {
+        display: flex;
+        padding: 195% 1px 0px 3%;
+        color: #FFF;
+        position: absolute;
+        font-weight: 400; font-size: 4rem; line-height: 4rem; margin-bottom: 20px;
+    }
+    .choto3 {
+        display: flex;
+        padding: 210% 1px 0px 3%;
+        color: #FFF;
+        align-items: center;
+        position: absolute;
+        font-weight: 40; font-size: 2rem; line-height: 2rem; margin-bottom: 20px;
+    }
+    .img4 {
+        width: 50%;
+        padding-top: 250%;
+        position: absolute;
+    }
+    .cho-to4 {
+        display: flex;
+        padding: 275% 1px 0px 3%;
+        color: #FFF;
+        position: absolute;
+        font-weight: 400; font-size: 4rem; line-height: 4rem; margin-bottom: 20px;
+
+    }
+    .choto4 {
+        display: flex;
+        padding: 300% 1px 0px 3%;
+        color: #FFF;
+        align-items: center;
+        position: absolute;
+        font-weight: 40; font-size: 2rem; line-height: 2rem; margin-bottom: 20px;
+
+    }
+    .download_wrap {
+        background: url(img/джунгли.webp) center center no-repeat;
+        background-size: cover;
+        padding: 100px 0 145px 0;
+        height: 50%;
+    }
     .download_title{
+            font-weight: 700; font-size: 3rem; line-height: 3rem; margin-bottom: 30px;
+    }
+    .download_subtitle{
+        padding: 1px 0 100px 0;    
+        font-weight: 500; font-size: 2rem; line-height: 2rem; margin-bottom: 0px;
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 28px;
+        flex-direction: column;
         
+    }
+    .menu li{
+        margin-left: 0px;
+    
+    }
+    .silki {
+        position: relative;
+        color: #484848;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .silki:before {
+        content: '';
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 1.5px;
+        background-color: #838383;
+    }
+    
+    .silki:hover:before {
+        width: 90%;
+    }
+    
+    .silki:before {
+        transition: width 0.35s;
+    }
+    .wrap {
+        max-width: 1080px;
+        min-width: 320px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box; 
+    
     }
 }
