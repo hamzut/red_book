@@ -135,29 +135,29 @@ body {
     box-sizing: border-box; 
 
 }
-.footer_wrap22 {
+.footer_wrap {
     padding: 20px 200px 20px 200px;
     margin-top: 100%;
 }
-.footer22 {
+.footer {
     display: flex; justify-content: space-between; align-items: center;
     color: #000000; font-size: 0.75rem; font-weight: 700;
     border-radius: 20px;
     margin-top: 100%;
 }
-.txt22 {
+.txt {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
     text-decoration: none;
     
 }
-.foot22 {
+.foot {
     width: 10000rem;
     height: 5rem;
     background-color: rgb(53, 53, 53);'
     margin-top: 100px;
 }
-.silke22 {
+.silke {
     text-decoration:none;
     color: #747474;
     margin-top: 100%;
